@@ -1,0 +1,65 @@
+baseURL = "barkouch.me"
+languageCode = "en-us"
+title = "Pavan Machhi"
+theme = "hello-friend-ng"
+paginate = 5
+
+[params]
+homeSubtitle = "CS student @ Rutgers"
+enableSharingButtons = true
+
+[taxonomies]
+category = "blog"
+tag      = "tags"
+series   = "series"
+
+[languages]
+[languages.en.params]
+title = "Pavan Machhi"
+subtitle = "CS student @ Rutgers"
+keywords = ""
+
+[languages.en.params.logo]
+logoText = "Pavan Machhi"
+logoHomeLink = "/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/pavanm100"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/pavan-m-673aba18b/"
+
+[[params.social]]
+name = "spotify"
+url = "https://spotify.com/user/pavan12286?si=aca1b014670e41af"
+
+[[params.social]]
+name = "email"
+url = "mailto:pavanmachhi100@gmail.com"
+
+[menu]
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+pageRef = '/about'
+weight = 1
+
+[[menu.main]]
+identifier = 'experience'
+name = 'Experience'
+pageRef = '/experience'
+weight = 2
+
+[[menu.main]]
+identifier = 'projects'
+name = 'Projects'
+pageRef = '/projects'
+weight = 3
+
+[[menu.main]]
+identifier = 'resume'
+name = 'Resume'
+url = "https://docs.google.com/document/d/1WBcDUZM1cmtDbiatoBzdlpBvfDOobqXV0HASW-0yMKA/edit"
+weight = 4
